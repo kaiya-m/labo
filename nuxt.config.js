@@ -47,7 +47,12 @@ export default {
   build: {
   },
 
+  // For Github Pages
+  router: {
+    base: '/kaiya-m.github.io/',
+  },
+
   generate: {
-    dir: 'docs'
-  }
+    dir: 'docs',
+  },
 }
